@@ -15,8 +15,8 @@
         </div>
         <div>
             <ul>
-                <li>Your name</li>
-                <li> A date following this format dd/mm/yyyy</li>
+                <li>Liina Krehova</li>
+                <li> 16/09/2024</li>
                 <li> Software Engineering </li>
             </ul>
         </div>
@@ -38,38 +38,61 @@
             <tbody>
             <tr>
                 <td>1</td>
-                <td>Agile software development</td>
+                <td><a href="https://courses.cs.ut.ee/2024/ASD/fall" target="_blank">Agile software development</a></td>
                 <td>fall</td>
                 <td>82</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td> Systems modelling </td>
+                <td><a href="https://courses.cs.ut.ee/2024/systemsmodelling/fall" target="_blank"> Systems modelling</a> </td>
                 <td>fall</td>
                 <td>85</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td> Requirements Engineering </td>
+                <td><a href="https://courses.cs.ut.ee/2024/RE/fall" target="_blank">Requirements Engineering</a>  </td>
                 <td>fall</td>
                 <td>99</td>
             </tr>
             <tr>
                 <td>4</td>
-                <td> Human Computer Interaction </td>
+                <td> <a href="https://courses.cs.ut.ee/2021/HCI/spring" target="_blank">Human Computer Interaction</a> </td>
                 <td>fall</td>
                 <td>65</td>
             </tr>
             </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">footer</td>
+                </tr>
+            </tfoot>
         </table>
     </section>
+    <section>
+        <form action="#">
+            <label for="ctitle">Course title:</label><br>
+            <input type="text" id="ctitle" name="ctitle" required><br>
+            <label for="semester">Semester:</label>
+            <select name="semester" id="semester">
+                <option value="fall">fall</option>
+                <option value="spring">spring</option>
+            </select>
+            <p>Attendance:</p>
+                <input type="radio" id="virtual" name="attendance" value="Virtual attendance">
+                <label for="virtual">Virtual attendance</label><br>
+                <input type="radio" id="live" name="attendance" value="Live attendance">
+                <label for="live">Live attendance</label><br>
+                <input type="submit" value="Submit">
+        </form>
+    </section>
+
     <footer>
         <ul>
             <li>
-                <a href="https://ois2.ut.ee/">OIS</a>
+                <a href="https://ois2.ut.ee/" target="_blank">OIS</a>
             </li>
             <li>
-                <a href="https://courses.cs.ut.ee/">Courses</a>
+                <a href="https://courses.cs.ut.ee/" target="_blank">Courses</a>
             </li>
         </ul>
     </footer>
